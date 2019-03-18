@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Main menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Character Creation.unity
+    guid: f275068314079404991f0db4982543cd
+  - enabled: 1
+    path: Assets/Scenes/Career choice.unity
+    guid: 6bd4515402a38c047902a7913dc74134
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: d76a27cb6d686354aa5b8ae5c9f1e410
+  - enabled: 1
+    path: Assets/Scenes/School.unity
+    guid: 4ae0e8dcc628d064593cd5625814cbab
+  - enabled: 1
+    path: Assets/Scenes/Brick laying work.unity
+    guid: 9bd61bb3e90efff44af48d6ec2029a5d
   m_configObjects: {}
