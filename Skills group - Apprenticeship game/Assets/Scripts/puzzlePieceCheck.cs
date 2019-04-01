@@ -5,12 +5,13 @@ using UnityEngine;
 public class puzzlePieceCheck : MonoBehaviour
 {
     public string brickTag;
-    //public GameObject correctPiece = null;
-    private Vector2 piecePosition;
+    public GameObject correctPiece;
+    private Vector3 piecePosition;
 
     void Start()
     {
-        piecePosition = this.transform.TransformPoint(Vector2.zero);
+        //local transform to get position since it's a child object
+        piecePosition = this.transform.localPosition;
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -19,6 +20,8 @@ public class puzzlePieceCheck : MonoBehaviour
         {
             //collision.gameObject.SetActive(false);
             //Instantiate(correctPiece);
+            Debug.Log("collided");
+            correctPiece.SetActive(true);
             collision.gameObject.transform.position = piecePosition;
         }
     }
