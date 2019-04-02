@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Map.unity
     guid: d76a27cb6d686354aa5b8ae5c9f1e410
   - enabled: 1
-    path: Assets/Scenes/School.unity
+    path: Assets/Scenes/Pipe laying.unity
     guid: 4ae0e8dcc628d064593cd5625814cbab
   - enabled: 1
     path: Assets/Scenes/Brick laying work.unity
