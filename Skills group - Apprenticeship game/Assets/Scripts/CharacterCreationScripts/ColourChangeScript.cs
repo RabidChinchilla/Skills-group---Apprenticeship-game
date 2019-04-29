@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class ColourChangeScript : MonoBehaviour
 {
+    //array of sprites to change (account for hair and eyebrows
+    public GameObject[] spriteList;
+
     // rgba component of colour
     public byte r; 
     public byte g;
     public byte b;
     private byte transparency;
 
-    //sprite to be changed
-    public GameObject sprite;
 
     private Color32 color;
-    private SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,14 +23,16 @@ public class ColourChangeScript : MonoBehaviour
         //gets desired colour using rgba
         color = new Color32(r, g, b, transparency);
 
-        spriteRenderer = sprite.GetComponent<SpriteRenderer>();
-
+        
     }
 
     //changes sprite colour
    public void ChangeColour()
     {
-        spriteRenderer.color = color;
+        foreach (GameObject sprite in spriteList)
+        {
+            sprite.GetComponent<SpriteRenderer>().color = color;
+        }
     }
 
 
