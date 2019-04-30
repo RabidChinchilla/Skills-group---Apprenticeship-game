@@ -6,6 +6,13 @@ TagManager:
   tags:
   - brick1
   - brick2
+  - placeable
+  - D-R
+  - U-R
+  - D-L
+  - U-L
+  - hor
+  - ver
   layers:
   - Default
   - TransparentFX
