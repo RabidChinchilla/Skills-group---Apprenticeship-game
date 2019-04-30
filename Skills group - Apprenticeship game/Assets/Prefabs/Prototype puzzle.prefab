@@ -1224,7 +1224,7 @@ GameObject:
   - component: {fileID: 3950103329690503057}
   - component: {fileID: 3950103329690503056}
   m_Layer: 8
-  m_Name: 'correct brick '
+  m_Name: correct brick 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1239,7 +1239,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3950103329690503062}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8900001, y: -2.53, z: -2}
+  m_LocalPosition: {x: 0.8900001, y: -2.53, z: 0.5}
   m_LocalScale: {x: 0.59999996, y: 0.59999996, z: 0.59999996}
   m_Children: []
   m_Father: {fileID: 3950103328761437051}
@@ -1282,7 +1282,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1981860701
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 079747bffe97b05479e3dd8be3f4dedc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2460,7 +2460,7 @@ GameObject:
   - component: {fileID: 3950103330460232704}
   - component: {fileID: 3950103330460232707}
   m_Layer: 8
-  m_Name: test brick 2
+  m_Name: correct brick 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2475,7 +2475,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3950103330460232705}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1900003, y: 0.02, z: -1.6000004}
+  m_LocalPosition: {x: 1.1900003, y: 0.02, z: 0.5}
   m_LocalScale: {x: 0.59999996, y: 0.59999996, z: 0.59999996}
   m_Children: []
   m_Father: {fileID: 3950103328761437051}
@@ -2518,7 +2518,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1981860701
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: af5b270d665fc1d43af43064b163f17a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
