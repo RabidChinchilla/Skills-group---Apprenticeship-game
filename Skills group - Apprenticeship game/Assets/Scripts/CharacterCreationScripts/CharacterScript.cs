@@ -42,20 +42,22 @@ public class CharacterScript : MonoBehaviour
 
 
     /// <summary>
-    /// Stores Character Data inPlayerPrefsCharacterSaver class
+    /// Stores Character Data in PlayerPrefsCharacterSaver class
     /// </summary>
     /// <returns></returns>
     public PlayerPrefsCharacterSaver StoreCharacterData()
     {
-        PlayerPrefsCharacterSaver save = new PlayerPrefsCharacterSaver();
+        PlayerPrefsCharacterSaver save = new PlayerPrefsCharacterSaver
+        {
+            eyebrowSprite = eyebrowSpriteRenderer.sprite.name,
+            eyeSprite = eyeSpriteRenderer.sprite.name,
+            mouthSprite = mouthSpriteRenderer.sprite.name,
+            noseSprite = noseSpriteRenderer.sprite.name,
+            hairSprite = hairSpriteRenderer.sprite.name,
+            pupilSprite = pupilSpriteRenderer.sprite.name
+        };
 
-        save.eyebrowSprite = eyebrowSpriteRenderer.sprite.name;
-        save.eyeSprite = eyeSpriteRenderer.sprite.name;
-        save.mouthSprite = mouthSpriteRenderer.sprite.name;
-        save.noseSprite = noseSpriteRenderer.sprite.name;
-        save.hairSprite = hairSpriteRenderer.sprite.name;
-        save.pupilSprite = pupilSpriteRenderer.sprite.name;
-
+        //saves colors
         save.skinColour.Add(skinColourRenderer.color.r);
         save.skinColour.Add(skinColourRenderer.color.g);
         save.skinColour.Add(skinColourRenderer.color.b);
@@ -86,6 +88,7 @@ public class CharacterScript : MonoBehaviour
     {
         if (File.Exists(Application.persistentDataPath + "/gamesave.character"))
         {
+            //load data
             BinaryFormatter bf = new BinaryFormatter();
             FileStream file = File.Open(Application.persistentDataPath + "/gamesave.character", FileMode.Open);
             PlayerPrefsCharacterSaver save = (PlayerPrefsCharacterSaver)bf.Deserialize(file);
@@ -101,6 +104,7 @@ public class CharacterScript : MonoBehaviour
 
             skinColourRenderer.color= new Color(save.skinColour[0], save.skinColour[1], save.skinColour[2],1);
             hairSpriteRenderer.color = new Color(save.hairColour[0],save.hairColour[1],save.hairColour[2],1);
+            eyebrowSpriteRenderer.color = new Color(save.hairColour[0], save.hairColour[1], save.hairColour[2], 1);
             pupilSpriteRenderer.color = new Color(save.eyeColour[0],save.eyeColour[1],save.eyeColour[2],1);
 
         }

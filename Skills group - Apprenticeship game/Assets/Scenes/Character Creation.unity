@@ -407,7 +407,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shape 2
+  m_Text: Eye Colour 2
 --- !u!222 &36100683
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -708,7 +708,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shape 1
+  m_Text: Eye Colour 1
 --- !u!222 &77627577
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1012,7 +1012,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shape 3
+  m_Text: Eye Colour 3
 --- !u!222 &162931775
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2082,7 +2082,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shape 4
+  m_Text: Eye Colour 4
 --- !u!222 &354716031
 CanvasRenderer:
   m_ObjectHideFlags: 0
