@@ -338,6 +338,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3950103328761437051}
+  - component: {fileID: 4986857064716991405}
   m_Layer: 0
   m_Name: Prototype puzzle
   m_TagString: Untagged
@@ -354,7 +355,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3950103328761437048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.45, y: 0, z: -10}
+  m_LocalPosition: {x: 2.5, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3950103329027266726}
@@ -392,6 +393,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4986857064716991405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3950103328761437048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8d95f4eb9d49184390ead82fb19c02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piece1: {fileID: 3950103330460232705}
+  piece2: {fileID: 3950103329690503062}
 --- !u!1 &3950103328832685109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1748,9 +1763,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickTag: brick2
   correctPiece: {fileID: 3950103330460232705}
-  prefabPiece: {fileID: 4330329877510158887, guid: 44cfbcc840dfabf48b2c9877cc148dea,
-    type: 3}
-  prefabSpawn: {fileID: 0}
 --- !u!1 &3950103329930416674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1959,9 +1971,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickTag: brick1
   correctPiece: {fileID: 3950103329690503062}
-  prefabPiece: {fileID: 5333442164127494650, guid: 5a54f4927d5cbe946b95c6254c3179aa,
-    type: 3}
-  prefabSpawn: {fileID: 0}
 --- !u!1 &3950103329982252050
 GameObject:
   m_ObjectHideFlags: 0

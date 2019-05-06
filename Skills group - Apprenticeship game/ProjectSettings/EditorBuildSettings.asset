@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Brick laying work.unity
     guid: 9bd61bb3e90efff44af48d6ec2029a5d
+  - enabled: 1
+    path: Assets/Scenes/EducationGame.unity
+    guid: 750becaa914994f49ad287e3d3f63f0c
+  - enabled: 1
+    path: Assets/Scenes/Fail.unity
+    guid: 1665025716288da4197fbd7efff43062
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 2cd41f6c3427e6848b2a6f581d22af2d
   m_configObjects: {}
