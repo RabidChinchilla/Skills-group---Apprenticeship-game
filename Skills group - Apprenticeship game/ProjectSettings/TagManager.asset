@@ -8,6 +8,9 @@ TagManager:
   - brick2
   - CurrentCanvas
   - DeactivatedCanvas
+  - brick3
+  - brick4
+  - brick5
   layers:
   - Default
   - TransparentFX
