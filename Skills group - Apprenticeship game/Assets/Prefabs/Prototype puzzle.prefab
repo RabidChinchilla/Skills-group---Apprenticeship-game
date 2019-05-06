@@ -1748,6 +1748,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickTag: brick2
   correctPiece: {fileID: 3950103330460232705}
+  prefabPiece: {fileID: 4330329877510158887, guid: 44cfbcc840dfabf48b2c9877cc148dea,
+    type: 3}
+  prefabSpawn: {fileID: 0}
 --- !u!1 &3950103329930416674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1956,6 +1959,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickTag: brick1
   correctPiece: {fileID: 3950103329690503062}
+  prefabPiece: {fileID: 5333442164127494650, guid: 5a54f4927d5cbe946b95c6254c3179aa,
+    type: 3}
+  prefabSpawn: {fileID: 0}
 --- !u!1 &3950103329982252050
 GameObject:
   m_ObjectHideFlags: 0
