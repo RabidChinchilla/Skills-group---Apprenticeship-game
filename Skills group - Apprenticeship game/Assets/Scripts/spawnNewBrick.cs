@@ -35,11 +35,17 @@ public class spawnNewBrick : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        brickNeeded = false;
+        if (collision.gameObject.tag == brickTag)
+        {
+            brickNeeded = false;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        brickNeeded = true;
+        if (collision.gameObject.tag == brickTag)
+        {
+            brickNeeded = true;
+        }
     }
 }
