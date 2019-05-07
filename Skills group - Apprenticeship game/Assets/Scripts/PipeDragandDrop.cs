@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dragAndDrop : MonoBehaviour
+public class PipeDragandDrop : MonoBehaviour
 {
     private bool draggingItem = false;
     private GameObject draggedObject;
     private Vector2 touchOffset;
 
-    [SerializeField]
+   
     private Vector3 grabbed;
 
     private Vector3 dropped;
 
     private void Start()
     {
-        grabbed = new Vector3(1.2f, 1.2f, 1.2f);
+        grabbed = new Vector3(0.8f, 0.8f, 0.8f);
 
         dropped = new Vector3(1.0f, 1.0f, 1.0f);
     }
@@ -83,7 +83,7 @@ public class dragAndDrop : MonoBehaviour
     {
         //stops the object from being dragged and resets the scale
         draggingItem = false;
-        
+
         draggedObject.transform.localScale = dropped;
     }
 }

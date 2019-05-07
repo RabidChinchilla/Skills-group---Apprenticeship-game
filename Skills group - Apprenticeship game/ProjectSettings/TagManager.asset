@@ -6,11 +6,21 @@ TagManager:
   tags:
   - brick1
   - brick2
+Pipe-Minigame-version-1
+  - placeable
+  - D-R
+  - U-R
+  - D-L
+  - U-L
+  - hor
+  - ver
+
   - CurrentCanvas
   - DeactivatedCanvas
   - brick3
   - brick4
   - brick5
+master
   layers:
   - Default
   - TransparentFX
