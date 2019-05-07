@@ -45,7 +45,7 @@ public class pipePlacement : MonoBehaviour {
                 targetCollider.enabled = false;
                 gameObject.transform.position = targetLocation;
                 Debug.Log("Placed");
-                tint.color = Color.red;
+                tint.color = Color.green;
 
 
 
