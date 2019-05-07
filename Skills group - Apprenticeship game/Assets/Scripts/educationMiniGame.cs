@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class educationMiniGame : MonoBehaviour
 {
@@ -15,13 +16,13 @@ public class educationMiniGame : MonoBehaviour
     public GameObject right;
 
     private float buttonSelection;
-    //[SerializeField]
+    [SerializeField]
     private int answer1;
-    //[SerializeField]
+    [SerializeField]
     private int answer2;
-    //[SerializeField]
+    [SerializeField]
     private int answer3;
-    //[SerializeField]
+    [SerializeField]
     private int answer4;
 
     [SerializeField]
@@ -170,6 +171,9 @@ public class educationMiniGame : MonoBehaviour
 
     void Update()
     {
-        
+        if ((answer1 == answerInput1) && (answer2 == answerInput2) && (answer3 == answerInput3) && (answer4 == answerInput4))
+        {
+            SceneManager.LoadScene("Win");
+        }
     }
 }

@@ -149,6 +149,10 @@ MonoBehaviour:
   down: {fileID: 4045673742680319154, guid: e2bc866d18f8b5a47bca53fd49a2943d, type: 3}
   left: {fileID: 1487509076174366101, guid: a18b64d105d98b1458f197a9ad358688, type: 3}
   right: {fileID: 6072121526031950788, guid: df6f53d51beeec943b55b827bc2e09c7, type: 3}
+  answer1: 0
+  answer2: 0
+  answer3: 0
+  answer4: 0
   answerInput1: 0
   answerInput2: 0
   answerInput3: 0
@@ -252,7 +256,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -388,7 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e119a48051bf2489c1ec0f5897e2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 30
+  timeLeft: 10
   text: {fileID: 278586718}
 --- !u!1 &300488310
 GameObject:
@@ -889,7 +893,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1150,7 +1154,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
