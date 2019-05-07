@@ -144,28 +144,28 @@ public class educationMiniGame : MonoBehaviour
             Debug.Log("input " + userInput);
         }
             
-        while(i == 1)
+        while(i == 2)
         {
             answerInput2 = userInput;
             i += 1;
             Debug.Log("input " + userInput);
         }
 
-        while (i == 2)
+        while (i == 4)
         {
             answerInput3 = userInput;
             i += 1;
             Debug.Log("input " + userInput);
         }
 
-        while (i == 3)
+        while (i == 6)
         {
             answerInput4 = userInput;
             i += 1;
             Debug.Log("input " + userInput);
         }
         
-        //i += 1;
+        i += 1;
     }
 
     void Update()
