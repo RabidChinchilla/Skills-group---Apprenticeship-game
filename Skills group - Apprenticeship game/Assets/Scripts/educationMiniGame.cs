@@ -20,7 +20,6 @@ public class educationMiniGame : MonoBehaviour
     private int answer3;
     private int answer4;
 
-    public int userInput;
     [SerializeField]
     private int answerInput1;
     [SerializeField]
@@ -133,29 +132,29 @@ public class educationMiniGame : MonoBehaviour
 
     public void getAnswer(int userInput)
     {
-        while (i < 4){
+        while (i < 8){
             if (i == 0)
             {
                 answerInput1 = userInput;
-                
+                i += 1;
                 Debug.Log("input " + userInput);
             }
-            if(i == 1)
+            if(i == 2)
             {
                 answerInput2 = userInput;
-                
+                i += 1;
                 Debug.Log("input " + userInput);
             }
-            if (i == 2)
+            if (i == 4)
             {
                 answerInput3 = userInput;
-                
+                i += 1;
                 Debug.Log("input " + userInput);
             }
-            if (i == 3)
+            if (i == 6)
             {
                 answerInput4 = userInput;
-                
+                i += 1;
                 Debug.Log("input " + userInput);
             }
         }
