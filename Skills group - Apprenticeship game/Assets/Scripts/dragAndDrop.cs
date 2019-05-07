@@ -15,9 +15,9 @@ public class dragAndDrop : MonoBehaviour
 
     private void Start()
     {
-        grabbed = new Vector3(1.2f, 1.2f, 1.2f);
+        grabbed = new Vector3(0.8f, 0.8f, 0.8f);
 
-        dropped = new Vector3(1.0f, 1.0f, 1.0f);
+        dropped = new Vector3(0.6f, 0.6f, 0.6f);
     }
 
     void Update()
