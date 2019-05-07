@@ -4,9 +4,20 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class changeSceneOnClick : MonoBehaviour {
+    private int currentSceneIndex;
 
-    public void loadByIndex(int index)
+    public void Start()
+    {
+        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    }
+    public void LoadByIndex(int index)
     {
         SceneManager.LoadScene(index);
     }
+
+    public void LoadNextScene()
+    {
+        SceneManager.LoadScene(currentSceneIndex + 1);
+    }
+
 }
