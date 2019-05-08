@@ -20,4 +20,8 @@ public class changeSceneOnClick : MonoBehaviour {
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
+    public void quitGame()
+    {
+        Application.Quit();
+    }
 }
