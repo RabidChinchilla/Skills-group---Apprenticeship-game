@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6471814421884849503}
   - component: {fileID: 7237608589071478498}
+  - component: {fileID: 1695620622051035782}
   m_Layer: 0
   m_Name: downarrowbutton
   m_TagString: Untagged
@@ -79,3 +80,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1695620622051035782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4045673742680319154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3502d43e7fe09de48acf472c9d81ae68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeLeft: 3

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1810330729435073093}
   - component: {fileID: 420410343440889479}
+  - component: {fileID: 672803871061861683}
   m_Layer: 0
   m_Name: rightarrowbutton
   m_TagString: Untagged
@@ -79,3 +80,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &672803871061861683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6072121526031950788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3502d43e7fe09de48acf472c9d81ae68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeLeft: 3
