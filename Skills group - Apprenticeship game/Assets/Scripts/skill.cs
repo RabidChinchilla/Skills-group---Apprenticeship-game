@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class skill : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private int oldSkill;
+
+    void Awake()
     {
-        
+        oldSkill = PlayerPrefs.GetInt("Skill");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void increaseSkill()
     {
-        
+        PlayerPrefs.SetInt("Skill", oldSkill + 1);
     }
 }

@@ -173,7 +173,7 @@ public class educationMiniGame : MonoBehaviour
     {
         if ((answer1 == answerInput1) && (answer2 == answerInput2) && (answer3 == answerInput3) && (answer4 == answerInput4))
         {
-            SceneManager.LoadScene("Win");
+            SceneManager.LoadScene("WinEducation");
         }
     }
 }

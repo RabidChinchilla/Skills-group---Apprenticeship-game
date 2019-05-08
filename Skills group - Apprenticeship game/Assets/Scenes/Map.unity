@@ -292,8 +292,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1262802825
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b44eb960b32c5ed43bc0bf2e487b3a16, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1767,6 +1767,7 @@ GameObject:
   - component: {fileID: 1642953759}
   - component: {fileID: 1642953761}
   - component: {fileID: 1642953760}
+  - component: {fileID: 1642953762}
   m_Layer: 5
   m_Name: skill
   m_TagString: Untagged
@@ -1835,6 +1836,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1642953758}
   m_CullTransparentMesh: 0
+--- !u!114 &1642953762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642953758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd03c55a93f4ee4aa15e45c3f860be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1642953760}
 --- !u!1 &1699683098
 GameObject:
   m_ObjectHideFlags: 0
@@ -2155,6 +2169,7 @@ GameObject:
   - component: {fileID: 1811427378}
   - component: {fileID: 1811427380}
   - component: {fileID: 1811427379}
+  - component: {fileID: 1811427381}
   m_Layer: 5
   m_Name: money
   m_TagString: Untagged
@@ -2223,6 +2238,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811427377}
   m_CullTransparentMesh: 0
+--- !u!114 &1811427381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811427377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8c6a6a93dbfc94ebcde39380067c80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1811427379}
 --- !u!1 &1943365312
 GameObject:
   m_ObjectHideFlags: 0

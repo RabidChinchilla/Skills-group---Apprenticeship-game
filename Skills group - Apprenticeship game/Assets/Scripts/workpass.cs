@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class workpass : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private int oldAmount;
+
+    void Awake()
     {
-        
+        oldAmount = PlayerPrefs.GetInt("Work pass");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void addPass()
     {
-        
+        PlayerPrefs.SetInt("Work pass", oldAmount + 1);
     }
 }
