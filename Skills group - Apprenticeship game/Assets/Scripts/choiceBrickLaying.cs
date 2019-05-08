@@ -7,6 +7,13 @@ public class choiceBrickLaying : MonoBehaviour
 {
     private int career;
 
+    private int oldWorkPass;
+
+    void Awake()
+    {
+        oldWorkPass = PlayerPrefs.GetInt("Work pass");
+    }
+
     public void setCareer(int choice)
     {
         if (choice == 1)
@@ -29,6 +36,7 @@ public class choiceBrickLaying : MonoBehaviour
         else if (career == 2)
         {
             PlayerPrefs.SetInt("pipe win condition", 0);
+            PlayerPrefs.SetInt("Work pass", oldWorkPass - 1);
             SceneManager.LoadScene("Pipe laying");
         }
     }

@@ -1,18 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class displayWorkpass : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Text text;
+    private int workPasses;
+    void Awake()
     {
-        
+        text = GetComponent<Text>();
+        workPasses = PlayerPrefs.GetInt("Work pass");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        text.text = "" + workPasses;
     }
 }
