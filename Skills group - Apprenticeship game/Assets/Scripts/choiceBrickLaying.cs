@@ -28,16 +28,20 @@ public class choiceBrickLaying : MonoBehaviour
 
     public void getCareer()
     {
-        career = PlayerPrefs.GetInt("Career");
-        if (career == 1)
+        if (oldWorkPass > 0)
         {
-            SceneManager.LoadScene("Brick laying work");
-        }
-        else if (career == 2)
-        {
-            PlayerPrefs.SetInt("pipe win condition", 0);
-            PlayerPrefs.SetInt("Work pass", oldWorkPass - 1);
-            SceneManager.LoadScene("Pipe laying");
+            career = PlayerPrefs.GetInt("Career");
+            if (career == 1)
+            {
+                PlayerPrefs.SetInt("Work pass", oldWorkPass - 1);
+                SceneManager.LoadScene("Brick laying work");
+            }
+            else if (career == 2)
+            {
+                PlayerPrefs.SetInt("pipe win condition", 0);
+                PlayerPrefs.SetInt("Work pass", oldWorkPass - 1);
+                SceneManager.LoadScene("Pipe laying");
+            }
         }
     }
 }
