@@ -10,7 +10,7 @@ public class money : MonoBehaviour
     private int moneyEarnt;
     private int previousMoney;
     private int skillLevel;
-    void Awake()
+    void Start()
     {
         text = GetComponent<Text>();
         skillLevel = PlayerPrefs.GetInt("Skill");

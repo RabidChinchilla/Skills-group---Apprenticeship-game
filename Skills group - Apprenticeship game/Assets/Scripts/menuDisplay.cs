@@ -8,7 +8,6 @@ public class menuDisplay : MonoBehaviour
     public GameObject buttonTwo;
     public GameObject schoolBtn = null;
     public GameObject workBtn = null;
-    public GameObject shopsBtn = null;
     private bool active = false;
 
     public void displayButtons()
@@ -19,7 +18,6 @@ public class menuDisplay : MonoBehaviour
             buttonTwo.SetActive(true);
             schoolBtn.SetActive(false);
             workBtn.SetActive(false);
-            shopsBtn.SetActive(false);
             active = true;
         }
         else
@@ -28,7 +26,6 @@ public class menuDisplay : MonoBehaviour
             buttonTwo.SetActive(false);
             schoolBtn.SetActive(true);
             workBtn.SetActive(true);
-            shopsBtn.SetActive(true);
             active = false;
         }
     }

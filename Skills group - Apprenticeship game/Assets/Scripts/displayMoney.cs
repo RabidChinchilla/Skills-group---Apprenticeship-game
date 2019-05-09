@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class displayMoney : MonoBehaviour
 {
     public Text text;
+    [SerializeField]
     private int moneyEarnt;
     void Awake()
     {

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class displaySkill : MonoBehaviour
 {
     public Text text;
+    [SerializeField]
     private int Skill;
     void Awake()
     {

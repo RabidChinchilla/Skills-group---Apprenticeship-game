@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class skill : MonoBehaviour
 {
+    [SerializeField]
     private int oldSkill;
 
     void Awake()
