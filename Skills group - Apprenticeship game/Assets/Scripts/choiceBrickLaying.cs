@@ -18,11 +18,11 @@ public class choiceBrickLaying : MonoBehaviour
     {
         if (choice == 1)
         {
-            PlayerPrefs.SetInt("Career", 1);
+            PlayerPrefs.SetInt("Career", 0);
         }
         else if (choice == 2)
         {
-            PlayerPrefs.SetInt("Career", 2);
+            PlayerPrefs.SetInt("Career", 1);
         }
     }
 
@@ -31,12 +31,12 @@ public class choiceBrickLaying : MonoBehaviour
         if (oldWorkPass > 0)
         {
             career = PlayerPrefs.GetInt("Career");
-            if (career == 1)
+            if (career == 0)
             {
                 PlayerPrefs.SetInt("Work pass", oldWorkPass - 1);
                 SceneManager.LoadScene("Brick laying work");
             }
-            else if (career == 2)
+            else if (career == 1)
             {
                 PlayerPrefs.SetInt("pipe win condition", 0);
                 PlayerPrefs.SetInt("Work pass", oldWorkPass - 1);
