@@ -20,6 +20,10 @@ public class changeSceneOnClick : MonoBehaviour {
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("Main menu");
+    }
     public void quitGame()
     {
         Application.Quit();

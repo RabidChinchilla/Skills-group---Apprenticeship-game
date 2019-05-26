@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 153601971}
   - component: {fileID: 153601970}
   m_Layer: 5
-  m_Name: Options button
+  m_Name: MainMenu Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,7 +192,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 644853617}
-        m_MethodName: 
+        m_MethodName: LoadMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -770,7 +770,6 @@ MonoBehaviour:
   buttonTwo: {fileID: 153601968}
   schoolBtn: {fileID: 1312014709}
   workBtn: {fileID: 529992775}
-  shopsBtn: {fileID: 0}
 --- !u!114 &644853619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1127,7 +1126,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Options
+  m_Text: Main Menu
 --- !u!222 &1056350479
 CanvasRenderer:
   m_ObjectHideFlags: 0
